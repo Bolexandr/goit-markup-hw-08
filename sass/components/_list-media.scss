@@ -1,0 +1,40 @@
+
+.list-media {
+  display: flex;
+	justify-content: center;
+
+	list-style: none;
+	gap: 10px;
+}
+
+
+.list-media__link {
+	border-radius: 50%;
+
+	@extend %flex-center;
+	
+	width: 44px;
+	height: 44px;
+
+	background-color: rgba(255, 255, 255, .1);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover, &:focus {
+    background-color: var(--accent-color);
+  }
+  
+}
+
+.list-media__svg {
+	fill: #AFB1B8;
+	
+	width: 20px;
+	height: 20px;
+
+	transition: fill 185ms cubic-bezier(0.4, 0, 0.2, 1);
+.list-media__link:hover &,
+.list-media__link:focus & {
+	fill: white;
+}
+}
+

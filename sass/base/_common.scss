@@ -1,0 +1,36 @@
+
+body {
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif;
+	color: var(--title-text-color);
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	background-color: var(--primary-bacground-color);
+}
+
+
+h1, h2, h3, p, ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-inline-start: 0;
+}
+
+a {
+	font-style: normal;
+	text-decoration-line: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+button {
+	text-decoration: none;
+	font-family: inherit;
+	border: none;
+	cursor: pointer;
+}
+img {
+	display: block;
+}

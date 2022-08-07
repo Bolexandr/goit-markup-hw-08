@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Studio-portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+	<header class="page-header">
+		<div class="container page-header__container">
+			<nav class="page-header__naigation">
+				<a href="./index.html" class="logo page-header__logo">
+					<span class="logo-blue">Web</span>Studio
+				</a>
+				<ul class="site-nav list">
+					<li class="item site-nav__item"><a href="./index.html" class="site-nav__link ">Студия</a>
+					</li>
+					<li class="item site-nav__item"><a href="./portfolio.html"
+							class="site-nav__link site-nav__link_current">Портфолио</a></li>
+					<li class="item site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
+				</ul>
+			</nav>
+			<ul class="contact-list list">
+				<li class="item contact-list__item">
+					<a class="contact-list__link" href="mailto:info@devstudio.com">
+						<div class="contact-list__box">
+							<svg height="12" width="16" class="contact-list__icon">
+								<use href="./images/icon.svg#icon-envelope"></use>
+							</svg>info@devstudio.com
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="contact-list__link" href="tel:+380961111111">
+						<div class="contact-list__box">
+							<svg height="16" width="10" class="contact-list__icon">
+								<use href="./images/icon.svg#icon-smartphone"></use>
+							</svg>
+							+38 096 111 11 11
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="section">
+			<!-- Схований заголовок -->
+			<h1 class="visually-hidden">Портфолио</h1>
+
+			<div class="container ">
+				<ul class="buttons list ">
+					<li class="item"> <button type="button" class="button-portfolio current-btn">Все</button></li>
+					<li class="item"> <button type="button" class="button-portfolio">Веб-сайты</button> </li>
+					<li class="item"> <button type="button" class="button-portfolio">Приложения</button> </li>
+					<li class="item"> <button type="button" class="button-portfolio">Дизайн</button> </li>
+					<li class="item"> <button type="button" class="button-portfolio">Маркетинг</button> </li>
+				</ul>
+
+				<ul class="examples list ">
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/laptop.jpg" alt="Ноутбук на якому зображено приклад сайту "
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Ресурс предлагает комплексные предложения с разным уровнем функционала и
+										сервисов.
+										Все это позволит посетителю получить
+										исчерпывающие сведения о компании или частном лице.
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Технокряк</h2>
+								<p class="examples-text">Веб-сайт</p>
+							</div>
+						</a>
+					</li>
+
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/basketbol.jpg" alt="плакат з баскетболістами"
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+								<p class="examples-text">Дизайн</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/fish.jpg" alt="Логотип ресторану'The Seafood'"
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Ресторан <span lang="en">Seafood</span></h2>
+								<p class="examples-text">Приложение</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/headphones.jpg" alt="Накладні навушники"
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Проект <span lang="en">Prime</span></h2>
+								<p class="examples-text">Маркетинг</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/2-box.jpg" alt="Зображено 2 коробки " class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Проект <span lang="en">Boxes</span></h2>
+								<p class="examples-text">Приложение</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/monitor.jpg" alt="Монітор з зображеним прикладом сайту"
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title" lang="en">Inspiration has no Borders</h2>
+								<p class="examples-text">Веб-сайт</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/magazine.jpg" alt="відкритий журнал" class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Издание <span lang="en">Limited Edition</span></h2>
+								<p class="examples-text">Дизайн</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/leable.jpg" alt="Бірка для одягу" class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title">Проект <span lang="en">LAB</span></h2>
+								<p class="examples-text">Маркетинг</p>
+							</div>
+						</a>
+					</li>
+					<li class="item-portfolio">
+						<a href="#" class="item-lin-portfolio">
+
+							<div class="portfolio-hiden-discription-parent">
+								<img width="370" height="294" src="./images/laptop-hands.jpg" alt="Ноутбук , хтось друкує"
+									class="examples-img">
+								<div class="portfolio-hiden-discription-child">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, omnis beatae
+										velit
+										necessitatibus perferendis nobis modi illo eaque deleniti quae numquam ut
+										temporibus!
+									</p>
+								</div>
+							</div>
+							<div class="border-botom">
+								<h2 class="examples-title" lang="en">Growing Business</h2>
+								<p class="examples-text">Приложение</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="main-footer__container container ">
+			<div class="main-footer__adress">
+				<a href="./index.html" class="logo main-footer_logo">
+					<span class="logo-blue">Web</span>Studio
+				</a>
+				<address>
+					<ul class="address list">
+						<li class="address__item"><a target="_blank" class="address__office" rel="noreferrer noopener"
+								href=" https://goo.gl/maps/ZoGBy2pLPGvZENqX7">
+								г.Киев, пр-т Леси
+								Украинки, 26</a></li>
+						<li class="address__item"><a class="address__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+						</li>
+						<li class="address__item"><a class="address__link" href="tel:+380961111111">+38
+								096 111 11 11</a></li>
+					</ul>
+				</address>
+			</div>
+			<div class="footer-media">
+				<h2 class="footer-media__title">присоединяйтесь</h2>
+
+				<ul class="list-media">
+
+					<li class="list-media__item">
+						<a class="list-media__link" href="">
+							<svg class="list-media__svg list-media__svg_footer">
+								<use href="./images/icon.svg#insta"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="list-media__item">
+						<a class="list-media__link" href="">
+							<svg class="list-media__svg list-media__svg_footer">
+								<use href="./images/icon.svg#twiter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="list-media__item">
+						<a class="list-media__link" href="">
+							<svg class="list-media__svg list-media__svg_footer">
+								<use href="./images/icon.svg#facebok"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="list-media__item">
+						<a class="list-media__link" href="">
+							<svg class="list-media__svg list-media__svg_footer">
+								<use href="./images/icon.svg#linkendin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box-footer-form">
+				<label class="label-footer-form" for="mail">Подпишитесь на рассылку</label>
+				<form class="footer-form">
+					<input type="email" nam="mail" id="mail" class="footer-form__input" placeholder="E-mail">
+					<button type="submit" class="button ">Подписаться
+						<svg width="24" height="24" class="icon-footer-form">
+							<use href="./images/icon.svg#send-white"></use>
+						</svg>
+					</button>
+				</form>
+			</div>
+		</div>
+	</footer>
+</body>
+
+
+</html>
