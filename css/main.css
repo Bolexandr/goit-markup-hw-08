@@ -571,6 +571,11 @@ img {
   padding-bottom: 32px;
 }
 
+.team__img {
+  width: 270px;
+  height: 260px;
+}
+
 .team__name-mamber {
   font-weight: 500;
   font-size: 16px;
@@ -630,6 +635,11 @@ img {
 .item-portfolio {
   width: 370px;
   background: #FFFFFF;
+}
+
+.portfolio__img {
+  width: 370px;
+  height: 294px;
 }
 
 .portfolio-hiden-discription-parent {
