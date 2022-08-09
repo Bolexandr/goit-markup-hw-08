@@ -37,7 +37,11 @@ body {
   background-color: var(--primary-bacground-color);
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-inline-start: 0;
@@ -48,7 +52,8 @@ a {
   text-decoration-line: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -61,6 +66,7 @@ button {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .container {
@@ -72,7 +78,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .container {
-    width: 481px;
+    max-width: 479px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -328,6 +334,7 @@ img {
 
 .box-footer-form {
   display: block;
+  width: 570px;
   margin-left: auto;
   margin-top: 12px;
 }
@@ -339,12 +346,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    width: 100%;
   }
 }
 
 .footer-form__input {
-  width: 358px;
   margin-right: 12px;
+  width: 358px;
   height: 50px;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -380,17 +388,18 @@ img {
   .label-footer-form {
     text-align: center;
     display: block;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .footer-form__input {
-    max-width: 450px;
     margin-right: 0;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 450px;
   }
 }
-
 .icon-footer-form {
   margin-left: 10px;
 }
@@ -443,7 +452,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .mob-nav {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -736,7 +745,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .benefits__item {
-    max-width: 450px;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 767px) {
@@ -951,6 +960,18 @@ img {
   justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+  .clients__item {
+    width: calc((100% - 30px) / 2);
+    min-height: 92px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients__item__item {
+    width: calc((100% - 60px) / 3);
+  }
+}
+
 .clients__link {
   height: 92px;
   border: 1px solid #afb1b8;
@@ -960,7 +981,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .clients__link {
-    width: 210px;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1049,6 +1070,7 @@ img {
   .main-footer__adress {
     width: 220px;
     margin-right: 77px;
+    margin-left: 0;
   }
 }
 
