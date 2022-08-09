@@ -943,10 +943,6 @@ img {
   background: #ffffff;
 }
 
-.portfolio__img {
-  height: 294px;
-}
-
 .portfolio-hiden-discription-parent {
   position: relative;
   overflow: hidden;
