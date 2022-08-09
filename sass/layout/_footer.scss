@@ -1,65 +1,102 @@
-.main-footer{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #2F303A;
-	min-height: 250px;
+.main-footer {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+  min-height: 250px;
 }
 
 .address__office,
 .address__link {
-	display: block;
-	font-size: 14px;
-	line-height: 1.71;
-	font-weight: 400;
-
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
 }
 
 .main-footer_logo,
 .address__office {
-	color: #ffffff;
-
+  color: #ffffff;
 }
 
-footer .logo {
-	display: block;
-	margin-bottom: 20px;
+.main-footer_logo {
+  display: block;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
 
 .address__item:not(:last-child) {
-	margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address__link {
-	color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
 
 .main-footer__container {
-	display: flex;
-	
-	flex-wrap: wrap;
+  display: flex;
+
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 
 .main-footer__adress {
-	width: 220px;
-	margin-right: 77px;
-}
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  @media screen and (min-width: 768px) {
+    margin-left: 76px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 220px;
+    margin-right: 77px;
+  }
+}
 
 .footer-media__title {
-		@include font(14px, 700, 16.8px);
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #ffffff;
+  @include font(14px, 700, 16.8px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
 
-.footer-media{
-	margin-top: 12px;
+.footer-media {
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-right: 89px;
+    margin-top: 5px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12px;
+  }
 }
 
-.list-media__svg_footer{
-	fill: #ffffff;
+.list-media__svg_footer {
+  fill: #ffffff;
 }
-
-
