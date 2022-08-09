@@ -26,7 +26,6 @@
 .buttons {
   @extend %flex-wrap;
   gap: 8px;
-  justify-content: center;
 }
 
 .examples-img {
@@ -48,10 +47,6 @@
 
   background: #ffffff;
 }
-
-// .portfolio__img {
-//   height: 294px;
-// }
 
 .portfolio-hiden-discription-parent {
   position: relative;
@@ -112,13 +107,37 @@
   font-weight: 400;
 }
 
+@media screen and (min-width: 768px) {
+  .border-botom {
+    min-height: 148px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .item-portfolio {
     width: calc((100% - 30px) / 2);
   }
 }
+
 @media screen and (max-width: 768px) {
   .item-portfolio {
     width: 100%;
+  }
+  .border-botom {
+    min-height: 110px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .border-botom {
+    min-height: 110px;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 625px) {
+  .buttons {
+    justify-content: center;
   }
 }

@@ -66,7 +66,8 @@
   color: #212121;
 }
 
-.mob-nav__item:not(:last-child) {
+.mob-nav__item:not(:last-child),
+.mob-contacts__item:not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -75,8 +76,6 @@
 }
 
 .mob-contacts__link_tel {
-  margin-bottom: 32px;
-
   font-size: 34px;
   color: var(--accent-color);
 }
