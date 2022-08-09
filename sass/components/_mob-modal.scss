@@ -99,6 +99,8 @@
   font-size: 18px;
   line-height: 1.22;
   color: var(--accent-color);
+
+  margin-top: 5px;
 }
 
 .mob-media__item:not(:last-child) {
@@ -111,6 +113,10 @@
   }
   .mob-contacts__link {
     font-size: 19px;
+  }
+  .mob-media__link {
+    display: inline-block;
+    margin-top: 8px;
   }
 }
 .mob-nav__link-curent {
